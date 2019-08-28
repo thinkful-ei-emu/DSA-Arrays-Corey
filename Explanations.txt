@@ -1,0 +1,23 @@
+# DSA-Arrays-Corey
+
+Pair: Jordon Carter
+
+1) see code
+
+2) "What is the length, capacity and memory address of your array? Explain the result of your program after         adding the new lines of code."
+  A) the length of the array reached the _capacity of 3. The push method says that if the capacity is 
+      equal to the length of the array then add one to length and * by the SIZE_RATIO which is 3. That
+      makes our new capacity 12. They array they gets moved to a new ptr of 3 and the length is allowed to increase to 5.
+
+3)  "What is the length, capacity, and address of your array? Explain the result of your program after adding        the new lines of code."
+  A) The length of the array changed by -3. The capcity and ptr stay the same. There is no need for the memory
+      position to change if 3 of the array elements are removed in this way.
+
+4) "Print this 1 item that you just added. What is the result? Can you explain your result?"
+  A) it prints NaN. The reason for this is the Float64Array only allowing numbers.
+
+   "What is the purpose of the _resize() function in your Array class?"
+  A) The _resize() method is used when the capacity of of the array has gone over the current limit.
+      this method will increase the capactity via the push method and move the ptr position.
+
+5) ""
