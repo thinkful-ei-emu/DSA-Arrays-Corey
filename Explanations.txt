@@ -19,5 +19,3 @@ Pair: Jordon Carter
    "What is the purpose of the _resize() function in your Array class?"
   A) The _resize() method is used when the capacity of of the array has gone over the current limit.
       this method will increase the capactity via the push method and move the ptr position.
-
-5) ""
